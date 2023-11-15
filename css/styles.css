@@ -67,6 +67,28 @@ a:hover {
     padding-top: 3.5rem;
 }
 
+.home__video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.centered-button {
+    position: absolute;
+    z-index: 10; /* Adjust z-index as needed */
+    /* Style your button as needed */
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "titles";
+
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
 button {
     border: none;
     color: black;
